@@ -1,0 +1,14 @@
+.navbar{
+	width:100%;
+}
+
+.go-away-bootstrap-colors>a{
+	color: #9d9d9d!important; 
+  background-color: transparent!important;
+  text-align: center; 
+}
+
+.go-away-bootstrap-colors>a:hover{
+	color:#ffffff!important;
+	background-color: black!important;
+}

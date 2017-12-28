@@ -1,0 +1,8 @@
+.search{
+	width:50px;
+	opacity: 0.5;
+}
+
+.search:hover{
+	opacity: 1;
+}

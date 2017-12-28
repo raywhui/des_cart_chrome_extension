@@ -1,0 +1,50 @@
+.banner{
+	height:175px;
+	width:300px;
+	position:relative;
+	background-color: black;
+	opacity: 0.9;
+	color:black;
+	margin: -15px 5px 6px 3px;
+	font-family: 'Amatic SC', cursive;
+}
+
+.banner-background{
+	position: absolute;
+	margin:0;
+	opacity: 0.4;
+}
+
+.name{
+	color:white;
+	width:250px;
+	text-align: center;
+	opacity: 1;
+	font-size: 32pt;
+	text-shadow: 1px 1px 1px black;
+	font-weight: 100;
+	position: absolute;
+	bottom:0;
+	left:50%;
+	transform: translate(-50%,0%);
+	transition: opacity 0.1s;
+}
+
+.profile{
+	position: absolute;
+	width:125px;
+	height:125px;
+	clip-path: circle(50% at 50% 50%);
+	opacity: 0.7;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+
+.banner:hover .profile{
+	opacity: 1;
+}
+
+.banner:hover .name{
+	opacity: 0;
+}

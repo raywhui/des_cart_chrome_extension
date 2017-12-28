@@ -1,0 +1,42 @@
+.item{
+	height:125px;
+	width:300px;
+	position:relative;
+	background-color: black;
+	margin: 6px 5px 6px 3px;
+	opacity: 0.9;
+	color:black;
+	font-family: 'Amatic SC', cursive;
+}
+
+.item-image{
+	position: absolute;
+	opacity: 0.5;
+	margin: 4px;
+	transition: opacity 0.1s, margin 0.25s;
+}
+
+.description{
+	color:white;
+	text-align: center;
+	opacity: 0.8;
+	font-size: 32pt;
+	font-weight: 100;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	transition: opacity 0.1s;
+}
+
+.item:hover .item-image{
+	cursor:pointer;
+	opacity: 0.7;
+	margin:0;
+}
+
+.item:hover .description{
+	cursor:pointer;
+	opacity: 1;
+	text-shadow: 1px 1px 1px black;
+}

@@ -1,0 +1,20 @@
+.facebook-colors{
+	position: relative;
+	color: white;
+  background-color: #3b5998;
+  font-family: Helvetica, Arial, sans-serif;
+  border: none;
+  font-size: 14pt;
+  font-weight: bold;
+  padding: 8pt 10pt 8pt 40px;
+ 	width:100%;
+  border-radius: 5px;
+}
+
+.facebook-icon{
+	position:absolute;
+	width: 40px;
+	height: 40px;
+	bottom: 3px;
+	left: 1px;
+}
